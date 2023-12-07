@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Create Object - Your Web Application</title>
+</head>
+<body>
+    <header>
+        <img src="team-logo.png" alt="Team Logo">
+        <h1>Create Object</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Landing Page.html">Home</a></li>
+            <li><a href="create-object.html">Create Object</a></li>
+            <li><a href="object-list.html">Object List</a></li>
+             
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+           
+            <form id="createObjectForm">
+                <label for="objectName">Tech Name:</label>
+                <input type="text" id="objectName" name="objectName" required>
+
+                <label for="objectDescription">Tech Description:</label>
+                <textarea id="objectDescription" name="objectDescription" rows="4" required></textarea>
+
+                <label for="objectCategory">Tech Category:</label>
+                <select id="objectCategory" name="objectCategory" required>
+                    <option value="Computers">Computers</option>
+                    <option value="Servers">Servers</option>
+                    <option value="Mobile devices">Mobile devices</option>
+                    <option value="Wearables">Wearables</option>
+                    <option value="Networking equipment">Networking equipment</option>
+                    
+                </select>
+
+                <label for="objectDate">Date of release:</label>
+                <input type="date" id="objectDate" name="objectDate" required>
+
+                <button type="button" onclick="createObject()">Create Object</button>
+            </form>
+        </div>
+   
+        <script src="script.js" defer></script>
+    </main>
+    <div class="footer">
+        <p>&copy; 2023 Web Application | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+</body>
+</html>
