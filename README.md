@@ -20,7 +20,7 @@ Yuntao Zhang:
   - Provided wireframes for different site features.
 
 GitHub Repository:
-  - Repository Link: [Your GitHub Repository Link]
+  - Repository Link: (https://github.com/luke2134/Project-4-WebTech/tree/master)
 
 Commits (visible in the repository):
   - Aqel Ibrahem: Commits related to authentication logic.
