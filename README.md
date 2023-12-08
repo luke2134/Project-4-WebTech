@@ -29,7 +29,7 @@ Commits (visible in the repository):
   - Yuntao Zhang: Commits related to EDD and wireframes.
 
 Agile Project Management:
-  - Used Jira for project management.
+  - Used Trello for project management.
   - Maintained a detailed Product Backlog.
   - Task Board snapshot available in the repository.
 
